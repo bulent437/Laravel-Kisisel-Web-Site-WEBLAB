@@ -1,0 +1,1169 @@
+YUSUF BÜLENT AY
+161307011
+
+1.SAYFA
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Yusuf Bülent AY</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+<div class="slider">
+<div class="w3-content w3-section" style="width: 80%;max-width: 1600px;height: 300px;">
+  <img class="mySlides" src="a.jpg" style="width:100%;height: 100%">
+  <img class="mySlides" src="b.jpg" style="width:100%;height: 100%">
+  <img class="mySlides" src="c.jpg" style="width:100%;height: 100%">
+</div>
+<div class="temizle"></div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+<div class="main">
+<div class="icerik">
+    <div class="icerik-sol">
+        <center><h3 style="color: #33383b;border-bottom: 2px solid #33383b;">Haberler</h3>
+        <br/></center>
+        <div class="makale">
+            <a href="haber1.html">
+            <img src="1.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber1.html">WhatsApp Mobil Veri Bağlantı ve İndirme Sorunu Nasıl Çözülür?</a></div>
+            <div class="makale-yazi">Eğer telefonunuz WhatsApp üzerinde mobil veriden görsel veya ses dosyası indirmede hata veriyorsa, WhatsApp’ın kendi internet sitesinde önerdiği birkaç çözüm bulunuyor.  </div>
+            <div class="devam"><a href="haber1.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        <div class="makale">
+            <a href="haber2.html">
+            <img src="2.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber2.html">Android ‘Uygulama Çalışmayı Durdurdu’ Hatası Nasıl Çözülür?</a></div>
+            <div class="makale-yazi">Android kullanıcılarının zaman zaman karşılaştığı ve gerçekten sinir bozucu olan "Uygulama çalışmayı durdurdu" hatası ve çözüm yöntemlerini açıkladık. Eğer siz de böyle bir hata alıyorsanız</div>
+            <div class="devam"><a href="haber2.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        <div class="makale">
+            <a href="haber3.html">
+            <img src="3.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber3.html">Online Mobil Oyunlar Ne Kadar İnternet Harcıyor?</a></div>
+            <div class="makale-yazi">Call Of Duty mobile, Mobile Legends ve PUBG gibi online mobil oyunlar günümüzde son derece popülerler. Biz de bu 3 oyunu ele alıp, ait oldukları türlerde ortalama veri kullanımını tespit etmeye çalıştık.</div>
+            <div class="devam"><a href="haber3.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        <div class="makale">
+            <a href="haber1.html">
+            <img src="1.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber1.html">WhatsApp Mobil Veri Bağlantı ve İndirme Sorunu Nasıl Çözülür?</a></div>
+            <div class="makale-yazi">Eğer telefonunuz WhatsApp üzerinde mobil veriden görsel veya ses dosyası indirmede hata veriyorsa, WhatsApp’ın kendi internet sitesinde önerdiği birkaç çözüm bulunuyor.  </div>
+            <div class="devam"><a href="haber1.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        <div class="makale">
+            <a href="haber2.html">
+            <img src="2.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber2.html">Android ‘Uygulama Çalışmayı Durdurdu’ Hatası Nasıl Çözülür?</a></div>
+            <div class="makale-yazi">Android kullanıcılarının zaman zaman karşılaştığı ve gerçekten sinir bozucu olan "Uygulama çalışmayı durdurdu" hatası ve çözüm yöntemlerini açıkladık. Eğer siz de böyle bir hata alıyorsanız</div>
+            <div class="devam"><a href="haber2.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        <div class="makale">
+            <a href="haber3.html">
+            <img src="3.jpg">
+            </a>
+            <div class="makale-baslik"><a href="haber3.html">Online Mobil Oyunlar Ne Kadar İnternet Harcıyor?</a></div>
+            <div class="makale-yazi">Call Of Duty mobile, Mobile Legends ve PUBG gibi online mobil oyunlar günümüzde son derece popülerler. Biz de bu 3 oyunu ele alıp, ait oldukları türlerde ortalama veri kullanımını tespit etmeye çalıştık.</div>
+            <div class="devam"><a href="haber3.html">Devamını Oku</a></div>
+            <div class="temizle"></div>
+        </div>
+        
+        <div class="temizle"></div>
+        <div class="makale" style="margin-bottom: 5px">
+        <div class="onceki">◄ Önceki</div>
+        <div class="sonraki">Sonraki ►</div>
+        <div class="temizle"></div>
+        </div>
+    </div>
+    <div class="icerik-sag">
+        <center><h3 style="color: #CCCCCC;border-bottom: 2px solid #CCCCCC;">Duyurular</h3>
+        <br/></center>
+        <div class="duyuru">
+            <center>  <img src="1.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+        <div class="duyuru">
+            <center>  <img src="2.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+2.SAYFA KAYNAK
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Kaynaklar</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+    <div class="icerik-sol" style="width: 98%; height: auto">
+        
+        <div class="video">
+        <video width="100%" height="60%" controls style="border-radius: 15px">
+        <source src="a.mp4" type="video/mp4">
+        <video>
+        </div>
+            <h4><a href="https://www.youtube.com/watch?v=0bSI9OgYcpQ" style="font-weight: bold">Bu</a> videodan yararlanarak pdf olarak indirmeyi yaptım cv sayfası </h4>
+            <h4>Jquery kullandım. 3.4.1 sürümü</h4>
+            <h4>W3 Kütüphanesini kullandım slider için</h4>
+            <h4>font-awesome kullandım sitedeki iconlar için (Facebook,Twitter vs.)</h4>
+            <h4>Son olarak youtubede Sıfırdan Web Sitesi Yapıyoruz video serisini izledim.<a href="https://www.youtube.com/watch?v=c-ViFVJyqT0&list=PLl4aNtpFDyjq3ebuVzRMlKqIlrQEH9_uk&index=1" style="font-weight: bold">Link</a></h4>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+
+3.SAYFA İLETİŞİM
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Hakkımda-Cv</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+
+.form-style-6 h1{
+	background: #FE6903;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #FE6903;
+	padding: 3%;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 input[type="tel"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #FE6903;
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #333333;
+    transition: 500ms;
+}
+</style>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+<div class="form-style-6">
+<h1>Bana Ulaşın</h1>
+<form action="https://formspree.io/mjvgknln" method="post">
+<input type="text" name="Ad" placeholder="Ad" />
+<input type="text" name="Soyad" placeholder="Soyad" />
+<input type="text" name="DogumTarih" placeholder="Doğum Tarihi" />
+<input type="tel" name="Telefon" placeholder="Telefon" />
+<input type="email" name="Email" placeholder="E-Mail" />
+<textarea name="Mesaj" placeholder="Mesajın"></textarea>
+<input type="submit" value="Gönder" />
+</form>
+</div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+4.SAYFA HAKKIMDA
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Hakkımda-Cv</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+
+.form-style-6 h1{
+	background: #FE6903;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #FE6903;
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #333333;
+    transition: 500ms;
+}
+</style>
+<script>
+function olustur(){
+var pdf = new jsPDF('p', 'pt', 'letter');
+source = $('#HTMLtoPDF')[0];
+specialElementHandlers = {
+	'#bypassme': function(element, renderer){
+		return true
+	}
+}
+margins = {
+    top: 50,
+    left: 60,
+    width: 545
+  };
+pdf.fromHTML(
+  	source // HTML string or DOM elem ref.
+  	, margins.left // x coord
+  	, margins.top // y coord
+  	, {
+  		'width': margins.width // max width of content on PDF
+  		, 'elementHandlers': specialElementHandlers
+  	},
+  	function (dispose) {
+  	  // dispose: object with X, Y of the last line add to the PDF
+  	  //          this allow the insertion of new lines after html
+        pdf.save('cv.pdf');
+      }
+  )		
+}
+var isEditable = document.getElementById("HTMLtoPDF").isContentEditable
+
+function Edit() {
+    isEditable = !isEditable
+    document.getElementById("HTMLtoPDF").contentEditable = isEditable
+    if (isEditable) {
+        document.getElementById("duzenle").innerHTML = "Onayla"
+    } else {
+        document.getElementById("duzenle").innerHTML = "Düzenle"
+    }
+}
+    </script>
+</head>
+    
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+<div class="form-style-6">
+<h1>CV</h1>
+<form id="about">
+<div class="about" >
+            <div id="HTMLtoPDF" contenteditable="false">
+
+                <h2>Kisisel Bilgiler</h2>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Ad Soyad</h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>Yusuf Bulent AY</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Telefon
+                        </h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>0537 9684589</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Mail</h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>bulent0637@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Adres</h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>Bagcilar/Istanbul</p>
+                    </div>
+                </div>
+                
+                <h2>Hakkimda</h2>
+                <div class="col">
+                    <p>1997 Istanbul dogumluyum.Universiteye kadar ki egitimimi Istanbulda tamamladim.Lisede Veri Tabani Programciligi okudum.vs vs bla bla</p>
+                </div>
+                <h2>Egitim</h2>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Lise</h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>Otocenter MTAL - Bilisim Teknolojileri- </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="aboutLeft">
+                        <h3>Universite</h3>
+                    </div>
+                    <div class="aboutRight">
+                        <p>Kocaeli Universitei - Bilisim Sistemleri Mühendisligi</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+<input type="button" id="duzenle" value="Düzenle" onClick="Edit()"/>
+<input type="button" value="İndir" onClick="olustur()"/>
+</form>
+</div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+
+5.SAYFA HABER 3
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Yusuf Bülent AY</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+    <div class="icerik-sol">
+        <center><h3 style="color: #33383b;border-bottom: 2px solid #33383b;">Online Mobil Oyunlar Ne Kadar İnternet Harcıyor?</h3>
+        <br/></center>
+        <img src="3.jpg" class="makale-detay-kapak"/>
+        <div class="temizle"></div>
+        <div class="makale-detay-yazi">
+        Call Of Duty mobile, Mobile Legends ve PUBG gibi online mobil oyunlar günümüzde son derece popülerler. Biz de bu 3 oyunu ele alıp, ait oldukları türlerde ortalama veri kullanımını tespit etmeye çalıştık. Sonuçlar cihaz, operatör ve teknik özelliklere göre değişse de genel bir izlenim vermek istedik.
+Akıllı telefonlar artık oyun konusunda bilgisayarlar ya da konsollar gibi önemli bir yere sahip oldular. Özellikle son dönemin görsel ve teknik açıdan üstün oyunları, milyonlarca oyuncuya günler içinde ulaşabiliyor. O milyonlarca oyuncuyu tek bir çatı altında toplayan şey ise internet. 
+
+Peki mobil oyunlar ne kadar internet verisi kullanıyor? Görsel açıdan zengin ve farklı türlere ait olan 3 oyun üzerinden bu konuyu aydınlatmaya çalışacağız. Her ne kadar grafik ayarlarınıza, kullandığınız cihaza ve operatöre göre değişim gösterse de mobil veri tüketimi hakkında genel bir kanıya sahip olabilirsiniz. 
+
+Online mobil oyunların çalışma mekaniği nasıldır?
+online oyunlar ne kadar internet yer?
+
+Aslında bu olay oyundan oyuna değişse de, çok sınırlı sayıda oyun online oynandığında “içinde bulunan her nesneyi” sunucular arasında taşır. Bunun sebebi, ağaç ya da bir ev gibi birçok nesnenin hareket etmemeleri. Daha iyi grafikli oyunlarda binalar hasara maruz kaldıklarında ortaya saçılan parçalar sunucu tarafından karşı tarafa iletilmek zorundadır.
+
+Call Of Duty mobile tarzı oyunlarda, oyuncular tarafından gerçekleştirilen birçok eylem karşı tarafa ulaştırılmak zorundadır. Fakat yine de her nesnenin koordinatını karşı tarafa gönderilmek zorunda değildir. Özellikle de kan efektleri gibi görüntüye dayalı değişiklikler sunuculara gönderilmezler. Bazı oyunlarda oyuncuyu vurduktan ve kan çıktığını gördükten sonra sunucunun size herhangi bir zarar vermediğinizi söylemesinin sebebi budur. Bu olayı şöyle açıklayabiliriz:
+
+Birisi sizi vurur ve oyunu oynadıkları cihazda sizi vurduklarını ve kan çıktığını görürler
+0.01 saniye sonra, siz karşıdaki oyunucu vurduğunuzu ve kan çıktığını görürsünüz
+Oyun serverı bu iki olayı alır ve #1’in #2’den önce olduğuna karar verir.
+Oyun serverı size ve rakibinize silahınızı ateşlemeden sizin öldüğünüz bilgisini verir. 
+        </div>
+    </div>
+        
+    </div>
+    <div class="icerik-sag">
+        <center><h3 style="color: #CCCCCC;border-bottom: 2px solid #CCCCCC;">Duyurular</h3>
+        <br/></center>
+        <div class="duyuru">
+            <center>  <img src="1.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+        <div class="duyuru">
+            <center>  <img src="2.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+
+6.SAYFA HABER 2
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Yusuf Bülent AY</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+         <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+    <div class="icerik-sol">
+        <center><h3 style="color: #33383b;border-bottom: 2px solid #33383b;">Android ‘Uygulama Çalışmayı Durdurdu’ Hatası Nasıl Çözülür?</h3>
+        <br/></center>
+        <img src="2.jpg" class="makale-detay-kapak"/>
+        <div class="temizle"></div>
+        <div class="makale-detay-yazi">
+        Android kullanıcılarının zaman zaman karşılaştığı ve gerçekten sinir bozucu olan "Uygulama çalışmayı durdurdu" hatası ve çözüm yöntemlerini açıkladık. Eğer siz de böyle bir hata alıyorsanız, aşağıdaki yöntemleri deneyebilirsiniz.
+Uygulamaları kullanırken çeşitli nedenlerden dolayı uygulama çalışmayı durdurdu hatası alabilirsiniz. Kimi zaman uygulamaya daha girmeden kimi zaman da uygulama içerisindeyken hatalar meydana gelebilir. Bu hata mesajları şu nedenden geliyor diye kesin bir şey söyleyemeyiz. Çünkü birçok nedeni var. Ancak Android için nasıl çözebileceğiniz konusunda yardımcı olabilecek birçok yöntem var.
+
+Play Store’dan indirilen tüm uygulamalar çalışır halde geliyor. Ancak nadir de olsa uygulama içerisindeki yazılımsal problemlerden dolayı, uygulama çalışmayı durdurdu gibi hatalar alabilirsiniz. Bu durumun en çok görüldüğü nedenler ise genel olarak uygulama dosyasındaki bozulmalar ve telefon yazılımında meydana gelebilecek arızalar. Peki bu sorunu nasıl çözeceğiz?
+
+Uygulama çalışmayı durdurdu hatası için 6 çözüm yolu (Android):
+Uygulama verilerini temizlemek,
+SD kart sorununu kontrol etmek,
+Uygulamayı silip yeniden yüklemek,
+Telefonu kapatıp açmak,
+Fabrika ayarlarına döndürmek.
+            Ayarlar’a girin.
+Açılan ekranda Uygulamalar bölümüne gidiyoruz.
+Uygulama listesi arasından sorun çıkaran uygulamayı seçiyoruz.
+Gelen ekrandan Depolama seçeneğine tıklıyoruz.
+Son olarak Verileri temizle ve Ön belleği temizle seçeneklerine tıklıyoruz.
+Rehber, galeri gibi içerisinde çok fazla veri depolayan uygulamalarda çalışmayı durdurdu hatası alırsanız bu yöntemi deneyebilirsiniz. Genel olarak bu uygulamalarda sorun çıkarsa da, diğer uygulamalar için de bu yöntem denenebilir. Ancak bu yöntemi kullanmadan önce dikkat etmeniz gerekenler var.
+
+Bir uygulamanın verilerini temizlediğiniz zaman, o uygulama içerisinde kayıtlı olan bilgileriniz de siliniyor. Örneğin, Facebook uygulaması için bu işlemi yaptığınızda kullanıcı bilgileriniz silinecektir. Uygulamayı açarken yeniden kullanıcı adı ve şifre girmeniz gerekecek. Bu nedenle bu yöntemi denemeden önce mutlaka kişisel bilgilerinizi not alın.
+        </div>
+    </div>
+        
+    </div>
+    <div class="icerik-sag">
+        <center><h3 style="color: #CCCCCC;border-bottom: 2px solid #CCCCCC;">Duyurular</h3>
+        <br/></center>
+        <div class="duyuru">
+            <center>  <img src="1.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+        <div class="duyuru">
+            <center>  <img src="2.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
+
+
+7.SAYFA HABER 1
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Yusuf Bülent AY</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="hakkimda.html" target="new">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+            <ul class="hidden">
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 1</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 2</a></li>
+            <li><a href="kaynak.html">KAYNAKLAR-VİDEO 3</a></li>
+            </ul>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+    <div class="icerik-sol">
+        <center><h3 style="color: #33383b;border-bottom: 2px solid #33383b;">WhatsApp Mobil Veri Bağlantı ve İndirme Sorunu Nasıl Çözülür?</h3>
+        <br/></center>
+        <img src="1.jpg" class="makale-detay-kapak"/>
+        <div class="temizle"></div>
+        <div class="makale-detay-yazi">
+        WhatsApp uygulamasında Wi-Fi üzerinden sorunsuz bir şekilde görsel indirebiliyor, ancak mobil veri üzerinden görsel indirmede başarısız oluyorsanız, bu sorunu hemen çözebilirsiniz. Yapmanız gerekenlere gelin yakından bakalım.
+Android cihazınızdaki WhatsApp uygulamasının Wi-Fi bağlantısında çalışırken mobil veri bağlantısıyla çalışmaması gerçekten garip bir durum. Muhtemelen bu durumu düzeltmek adına birçok yöntem denemiş ve en sonunda telefonunuzu duvarlara fırlatma noktasına gelmiş olabilirsiniz. Merak etmeyin, WhatsApp mobil veri bağlantı ve görsel indirememe sorununu yaşayan bir tek siz değilsiniz.
+
+WhatsApp mobil veri ile çalışmaması sorununu ele aldığımız rehberimizde, ne yapmanız gerektiğini adımlar halinde detaylıca anlattık.
+
+Telefonunuz WhatsApp’a mobil veri modunda neden bağlanmıyor?
+            Eğer telefonunuz WhatsApp üzerinde mobil veriden görsel veya ses dosyası indirmede hata veriyorsa, WhatsApp’ın kendi internet sitesinde önerdiği birkaç çözüm bulunuyor. Sizlere bunları aktardıktan sonra kendi önerilerimize geçeceğiz. Ama önce:
+
+Telefonunuzu yeniden başlatın,
+Eğer güncellemediyseniz WhatsApp’ı Google Play Store mağazasından son sürümüne güncelleyin,
+Telefonunuzun Uçak modunu açın ve kapatın,
+Telefonunuzda Ayarlar>Kablosuz bağlantı ve ağlar>Veri kullanımı>Ağ erişimi dizininden WhatsApp’ı bulun ve mobil verinin işaretli olduğundan emin olun,
+        </div>
+    </div>
+        
+    </div>
+    <div class="icerik-sag">
+        <center><h3 style="color: #CCCCCC;border-bottom: 2px solid #CCCCCC;">Duyurular</h3>
+        <br/></center>
+        <div class="duyuru">
+            <center>  <img src="1.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+        <div class="duyuru">
+            <center>  <img src="2.jpg"/></center>            <div class="duyuru-baslik" >Duyurum bu</div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>

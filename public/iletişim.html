@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Hakkımda-Cv</title>
+<link rel="stylesheet" type="text/css" href="headerfooter.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+
+.form-style-6 h1{
+	background: #FE6903;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #FE6903;
+	padding: 3%;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 input[type="tel"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #FE6903;
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #333333;
+    transition: 500ms;
+}
+</style>
+</head>
+<body>
+<div id="header">
+    <div id="logo" >
+        <a href="index.html"><img src="LOGO.png" style="width: 150px;height: 50px;"></a>
+    </div>
+    <div id="menu">
+        <label for="show-menu" class="show-menu">Menüyü Göster</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" >
+          <li><a href="{{ route('home') }}">ANASAYFA</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA-CV</a></li>
+        <li><a href="kaynak.html">KAYNAKLAR-VİDEO</a>
+        </li>
+        <li><a href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+     </div>
+    <div class="temizle"></div>
+</div>
+
+<div class="main">
+<div class="icerik">
+<div class="form-style-6">
+<h1>Bana Ulaşın</h1>
+<form action="https://formspree.io/mjvgknln" method="post">
+<input type="text" name="Ad" placeholder="Ad" />
+<input type="text" name="Soyad" placeholder="Soyad" />
+<input type="text" name="DogumTarih" placeholder="Doğum Tarihi" />
+<input type="tel" name="Telefon" placeholder="Telefon" />
+<input type="email" name="Email" placeholder="E-Mail" />
+<textarea name="Mesaj" placeholder="Mesajın"></textarea>
+<input type="submit" value="Gönder" />
+</form>
+</div>
+</div>
+</div>
+    <div class="temizle"></div>
+<center>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> Yusuf Bülent AY</span> 1997 İstanbul doğumlu Yusuf Bülent AY üniversiteye kadar ki eğitimini İstanbulda tamamlamıştır.Lisede </p>
+    <p class="about">Veri Tabanı Programcılığı okuyan YBA bilgisayara tutkuyla bağlanmıştır.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/bulent437" target="new" ><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.instagram.com/ybulentay/?hl=tr"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Ali Fuat Cebesoy Öğrenci Yurdu</span> İzmit/Kocaeli</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><a href="tel://+905379684589">(+90) 537 968 45 89</a> </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+        <p><a href="mailto://bulent0637@gmail.com">bulent0637@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+      <div id="top" class="basa-don" >
+          <a >▲</a>
+      </div>
+    <h2><img class="logom" src="LOGO.png" ></h2>
+      <div class="temizle"></div>
+      <br/>
+        <p class="name" style="float: right ; margin-right: 100px;"> Yusuf Bülent AY &copy; 2019</p>
+    
+  </div>
+    <div class="temizle"></div>
+</footer>
+</center>
+<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+    
+</body>
+</html>
